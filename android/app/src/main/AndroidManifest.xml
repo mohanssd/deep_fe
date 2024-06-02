@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
-        android:label="deep_fe"
+        android:label="project_deep"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
